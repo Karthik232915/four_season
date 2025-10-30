@@ -1,0 +1,38 @@
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.language-select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.language-select option {
+  padding: 8px;
+}
+
+[dir="rtl"] .language-selector {
+  left: 20px;
+  right: auto;
+}
+
+/* Language-specific font families */
+:lang(ta) {
+  font-family: 'Latha', 'Tamil MN', sans-serif;
+}
+
+:lang(hi) {
+  font-family: 'Mangal', 'Nirmala UI', sans-serif;
+}
+
+:lang(te) {
+  font-family: 'Gautami', 'Telugu Sangam MN', sans-serif;
+}
